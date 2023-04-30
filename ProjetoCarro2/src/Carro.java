@@ -1,8 +1,9 @@
-public class Carro{
+public class Carro {
+
     private String modelo;
     private int velocidade;
 
-    public Carro(String modelo) {
+    public Carro(String modelo){
         this.modelo = modelo;
         velocidade = 0;
     }
@@ -22,5 +23,4 @@ public class Carro{
     public void reduzir(){
         velocidade -= 5;
     }
-
 }
