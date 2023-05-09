@@ -143,14 +143,14 @@ public class CaixaEletronico {
                 if (conta2.transferencia(valorTransferencia, conta1)) {
                     System.out.println("Operação realizada com sucesso");
                 } else {
-                    System.out.println("Operção recusada.");
+                    System.out.println("Operação recusada.");
                 }
 
             } else {
                 if (conta1.transferencia(valorTransferencia, conta2)) {
-                    System.out.println("Operacao realizada com sucesso");
+                    System.out.println("Operação realizada com sucesso");
                 } else {
-                    System.out.println("Operacao recusada.");
+                    System.out.println("Operação recusada.");
                 }
             }
         }
